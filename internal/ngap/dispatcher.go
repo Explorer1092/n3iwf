@@ -5,11 +5,11 @@ import (
 
 	"git.cs.nctu.edu.tw/calee/sctp"
 
+	"github.com/Explorer1092/n3iwf/internal/ngap/handler"
+	"github.com/Explorer1092/n3iwf/pkg/context"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
 	"github.com/free5gc/ngap"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/projectdiscovery/n3iwf/internal/ngap/handler"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func NGAPDispatch(conn *sctp.SCTPConn, msg []byte) {

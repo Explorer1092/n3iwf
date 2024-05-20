@@ -9,12 +9,12 @@ import (
 
 	"git.cs.nctu.edu.tw/calee/sctp"
 
+	"github.com/Explorer1092/n3iwf/internal/ngap"
+	"github.com/Explorer1092/n3iwf/internal/ngap/handler"
+	"github.com/Explorer1092/n3iwf/internal/ngap/message"
+	"github.com/Explorer1092/n3iwf/pkg/context"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
 	lib_ngap "github.com/free5gc/ngap"
-	"github.com/projectdiscovery/n3iwf/internal/ngap"
-	"github.com/projectdiscovery/n3iwf/internal/ngap/handler"
-	"github.com/projectdiscovery/n3iwf/internal/ngap/message"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 var (

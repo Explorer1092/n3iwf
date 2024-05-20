@@ -5,9 +5,9 @@ import (
 
 	"git.cs.nctu.edu.tw/calee/sctp"
 
+	"github.com/Explorer1092/n3iwf/pkg/context"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func SendToAmf(amf *context.N3IWFAMF, pkt []byte) {

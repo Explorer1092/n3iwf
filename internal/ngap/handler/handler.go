@@ -7,13 +7,13 @@ import (
 
 	"git.cs.nctu.edu.tw/calee/sctp"
 
+	gtp_service "github.com/Explorer1092/n3iwf/internal/gtp/service"
+	ngap_message "github.com/Explorer1092/n3iwf/internal/ngap/message"
+	"github.com/Explorer1092/n3iwf/pkg/context"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
 	"github.com/free5gc/aper"
 	"github.com/free5gc/ngap/ngapConvert"
 	"github.com/free5gc/ngap/ngapType"
-	gtp_service "github.com/projectdiscovery/n3iwf/internal/gtp/service"
-	ngap_message "github.com/projectdiscovery/n3iwf/internal/ngap/message"
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func HandleNGSetupResponse(sctpAddr string, conn *sctp.SCTPConn, message *ngapType.NGAPPDU) {

@@ -7,11 +7,11 @@ import (
 
 	"github.com/urfave/cli"
 
+	"github.com/Explorer1092/n3iwf/pkg/factory"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
+	"github.com/Explorer1092/n3iwf/pkg/service"
 	logger_util "github.com/free5gc/util/logger"
 	"github.com/free5gc/util/version"
-	"github.com/projectdiscovery/n3iwf/pkg/factory"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
-	"github.com/projectdiscovery/n3iwf/pkg/service"
 )
 
 var N3IWF *service.N3iwfApp

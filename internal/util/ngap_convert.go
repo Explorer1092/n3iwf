@@ -5,10 +5,10 @@ import (
 	"encoding/hex"
 	"strings"
 
+	"github.com/Explorer1092/n3iwf/pkg/factory"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
 	"github.com/free5gc/aper"
 	"github.com/free5gc/ngap/ngapType"
-	"github.com/projectdiscovery/n3iwf/pkg/factory"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
 )
 
 func PlmnIdToNgap(plmnId factory.PLMNID) (ngapPlmnId ngapType.PLMNIdentity) {

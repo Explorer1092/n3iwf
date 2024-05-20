@@ -1,4 +1,4 @@
-module github.com/projectdiscovery/n3iwf
+module github.com/Explorer1092/n3iwf
 
 go 1.17
 

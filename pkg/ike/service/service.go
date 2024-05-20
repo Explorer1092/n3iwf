@@ -6,10 +6,10 @@ import (
 	"runtime/debug"
 	"sync"
 
-	"github.com/projectdiscovery/n3iwf/pkg/context"
-	"github.com/projectdiscovery/n3iwf/pkg/ike"
-	"github.com/projectdiscovery/n3iwf/pkg/ike/handler"
-	"github.com/projectdiscovery/n3iwf/pkg/logger"
+	"github.com/Explorer1092/n3iwf/pkg/context"
+	"github.com/Explorer1092/n3iwf/pkg/ike"
+	"github.com/Explorer1092/n3iwf/pkg/ike/handler"
+	"github.com/Explorer1092/n3iwf/pkg/logger"
 )
 
 var (
