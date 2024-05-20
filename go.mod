@@ -3,7 +3,6 @@ module github.com/projectdiscovery/n3iwf
 go 1.17
 
 require (
-	git.cs.nctu.edu.tw/calee/sctp v1.1.0
 	github.com/asaskevich/govalidator v0.0.0-20210307081110-f21760c49a8d
 	github.com/free5gc/aper v1.0.4
 	github.com/free5gc/ngap v1.0.6
